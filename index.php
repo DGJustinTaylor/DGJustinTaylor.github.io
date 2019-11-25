@@ -10,31 +10,31 @@
 	<meta charset = "UTF-8">
 	<title>Justin Lee Taylor</Title>
 	<!--Favicons-->
-	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="images/favicons/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../images/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#00D4FF">
-    <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="../images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#00D4FF">
 	<!--BXSlider-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 	<!--Normalize-->
-	<link rel = "stylesheet" type = "text/css" href = "styles/normalize.css">
+	<link rel = "stylesheet" type = "text/css" href = "../styles/normalize.css">
 	<!--Animate.css-->
-	<link rel = "stylesheet" type = "text/css" href = "styles/animate.css">
+	<link rel = "stylesheet" type = "text/css" href = "../styles/animate.css">
 	<!--Custom Stylesheet-->
-	<link rel = "stylesheet" type = "text/css" href = "styles/main.css">
+	<link rel = "stylesheet" type = "text/css" href = "../styles/main.css">
 
 </head>
 <body>
@@ -65,7 +65,7 @@
 				<section class = "blockSection abtme" id = "aboutMe">
 				    <h2>About me</h2>
 					<div class = "myPic">
-						<img src = "images/abtMePic.png" alt = "picture of site owner">
+						<img src = "../images/abtMePic.png" alt = "picture of site owner">
 					</div>
 					
 					<p>My is name Justin Taylor. That website was already taken, so I threw my middle name in there too. I guess to you, I'm Justin Lee Taylor. My passions lie in web development and PC game development. I am constantly driving myself to keep up-to-date on technology and new programming techniques and standards.
@@ -75,10 +75,10 @@
 					<p>Below you can find examples of my works in various languages. To download any of the examples, just click the picture.</p>
 					<div>
 						<ul class="projList">
-							<li><a href="downloads/Pinbrawl.zip" download><img src="images/PinballScreenshot.PNG"></a><h3>Pinball Deluxe! Do I need to say more?</h3><p>A take on the classic game pinball! Stylized with imagery of my professor who used to be an MMA fighter.</p></li>
-							<li><a href="downloads/BrainTease.apk" download><img src="images/BrainTeaseScreenshot.PNG"></a><h3>BrainTease! Daily Jokes/Facts!</h3><p>An Android application that sends you daily reminders with new randomly generated facts/jokes. A fun app for all!</p></li>
-							<li><a href="downloads/Tabber.nsi" download><img src="images/TabberScreenshot.PNG"></a><h3>Tabber A kiosk-like application for Windows!</h3><p>An application like this allows the user to showcase workplace metrics on any screen they like! Versatile application that should work to display data from any filetype.</p></li>
-							<li><a href="downloads/9to5.zip" download><img src="images/9to5Screenshot.PNG"></a><h3>9 to 5! A Fitbit app for the working person</h3><p>A watchface for your Fitbit! Comes with built in local weather tracking based upon GPS location, and built in speed monitoring that notifies you when you're over a user-defined speed limit!</p></li>
+							<li><a href="../downloads/Pinbrawl.zip" download><img src="../images/PinballScreenshot.PNG"></a><h3>Pinball Deluxe! Do I need to say more?</h3><p>A take on the classic game pinball! Stylized with imagery of my professor who used to be an MMA fighter.</p></li>
+							<li><a href="../downloads/BrainTease.apk" download><img src="../images/BrainTeaseScreenshot.PNG"></a><h3>BrainTease! Daily Jokes/Facts!</h3><p>An Android application that sends you daily reminders with new randomly generated facts/jokes. A fun app for all!</p></li>
+							<li><a href="../downloads/Tabber.nsi" download><img src="../images/TabberScreenshot.PNG"></a><h3>Tabber A kiosk-like application for Windows!</h3><p>An application like this allows the user to showcase workplace metrics on any screen they like! Versatile application that should work to display data from any filetype.</p></li>
+							<li><a href="../downloads/9to5.zip" download><img src="../images/9to5Screenshot.PNG"></a><h3>9 to 5! A Fitbit app for the working person</h3><p>A watchface for your Fitbit! Comes with built in local weather tracking based upon GPS location, and built in speed monitoring that notifies you when you're over a user-defined speed limit!</p></li>
 						</ul>
 					</div>
 					<p>If you would like to see more of my projects, please visit my <a href = "https://github.com/DGJustinTaylor" target = "_blank">Github</a> page.</p>
@@ -88,7 +88,7 @@
 					<p>Please contact me with any questions or service requests.</p>
 					
 					<!--Put form here-->
-					<form method = "post" action = "php/send_form_email.php">
+					<form method = "post" action = "../php/send_form_email.php">
 					    <span>*</span>
 						<label for = "firstName">First Name:</label>
 						<input type = "text" name = "first_name" id = "firstName" maxlength = "40" required>
@@ -102,11 +102,11 @@
 						<textarea name = "comments" id = "comments" rows = "10" maxlength = "240"></textarea>
 						<div class = "submitButton">
 						<input type = "submit" value = "Submit" id = "submit">
-						</div>
-						<?php
-						echo "Thank you for submitting";
-						?>
 					</form>
+					</div>
+					<?php
+					    echo "<p class='submitted'>Thank you for submitting. I will review your information and get back to you as soon as I'm available!</p>";
+					?>
 				</section>
 				<section class = "blockSection res" id = "resume">
 				    <h2>Resume</h2>
@@ -180,7 +180,7 @@
 					    </div>
 					<h3>You can download my resume from the link below</h3>
 
-					<a href = "downloads/Resume.pdf" target = "_blank" class = "button">Resume</a>
+					<a href = "../downloads/Resume.pdf" target = "_blank" class = "button">Resume</a>
 				</section>
 			</div>
 		</main>
@@ -192,17 +192,17 @@
 		</div>
 		
 	<!--HTML5 Shiv-->
-	<script src = "javascript/html5shiv.min.js"></script>
+	<script src = "../javascript/html5shiv.min.js"></script>
 	<!--Jquery Link-->
 	<script src="https://code.jquery.com/jquery-1.11.0.min.js"integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI="crossorigin="anonymous"></script>
 	<!--BXSlider-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<!--Scroll Stuff-->
-	<script src = "javascript/jquery.localScroll.min.js"></script>
-	<script src = "javascript/jquery.scrollTo.min.js"></script>
-	<script src = "javascript/scrollspy.min.js"></script>
+	<script src = "../javascript/jquery.localScroll.min.js"></script>
+	<script src = "../javascript/jquery.scrollTo.min.js"></script>
+	<script src = "../javascript/scrollspy.min.js"></script>
 	<!--Custom Javascript-->
-	<script src = "javascript/main.js"></script>
+	<script src = "../javascript/main.js"></script>
 </body>
 </html>

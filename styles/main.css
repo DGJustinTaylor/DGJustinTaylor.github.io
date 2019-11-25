@@ -345,6 +345,12 @@ a:hover {
 	visibility: hidden;
 }
 
+.submitted {
+    color: red;
+    font-size: 120%;
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 480px)
 {
 
