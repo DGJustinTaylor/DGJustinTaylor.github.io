@@ -1,0 +1,495 @@
+html {
+	font-family: arial, verdana, sans-serif;
+}
+
+body {
+	/*background-color: #8470ff;*/
+	background-color: #0599bb;
+	margin: 0;
+	
+	overflow-x: hidden;
+}
+
+header {
+	margin: 0 auto;
+	min-height: 550px;
+	height: 100vh;
+	width: 80vw;
+	text-align: center;
+}
+
+form {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	font-family: Georgia;
+}
+
+form input, textarea {
+	width: 100%;
+	padding: .75em 1em;
+	margin: .5em 0 2em 0;
+	display: inline-block;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+form input[type=submit]{
+	width: 100%;
+	background-color: #0599bb;
+	color: white;
+	padding: .75em 1em;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+form textarea {
+	resize: none;
+	text-align: left;
+}
+
+span {
+    color: red;
+}
+
+a, a:visited {
+	color: black;
+}	
+
+a:hover {
+	font-weight: bold;
+}
+
+.button {
+	background-color: #0599bb;
+	border: none;
+	color: white;
+	padding: .5em 4em .5em 4em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 90%;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.button:visited {
+    color: white;
+}
+
+.button:hover {
+    color: black;
+}
+
+.logo {
+	text-align: center;
+	padding: 6em 2em 0 2em;
+}
+
+.logo img {
+	width: 80%;
+}
+
+.myPic {
+	text-align: center;
+	padding-top: 3em;
+}
+
+.myPic img {
+	width: 75%;
+}
+
+.mediaIcons {
+    width: 100%;
+    display: inline-block;
+}
+
+.mediaIcons img {
+    width: 15%;
+    margin: 0 .5em;
+}
+
+.navbar {
+	width: 100%;
+	height: 10vh;
+	line-height: 1.6;
+	display: none;
+	position: relative;
+	z-index: 99;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	text-align: center;
+	clear: both;
+}
+
+.navbar ul li {
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.navbar ul li a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.active a {
+	font-size: 110%;
+	font-weight: bold;
+	border-bottom: solid 2px black;
+}
+
+.footSection {
+	text-align: center;
+}
+
+.blockSection {
+	margin: 50px 0;
+	background-color:#FFFFFF;
+	box-shadow: 5px 5px 4px #2F2F2F;
+	padding: 1em 1.5em 1em 1.5em;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+
+.blockSection h2 {
+    margin: 0 auto;
+    color: grey;
+    width: 80%;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    border-bottom: solid 2px grey;
+}
+
+.abtme p {
+	margin: 0 auto;
+	width: 75%;
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.proj a, .proj a:visited {
+    color: blue;
+}
+
+.projList {
+	list-style-type: none;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.projList li {
+	display: inline-block;
+	width: 90%;
+	position: relative;
+	height: 90%;
+	border-radius: 5px;
+	box-shadow: 0 0 0 #FFF;
+	margin: 15px;
+	transform: scale(1, 1);
+	transition: transform 0.1s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.projList li:hover {
+	transform: scale(1.1, 1.1);
+	z-index: 99;
+	box-shadow: 0 5px 15px #2F2F2F;
+	transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.projList li img {
+	width: 100%;
+}
+
+.projList li h3 {
+	margin-bottom: 0;
+}	
+
+.projList li p {
+	margin: 0 auto;
+	padding: 10px;
+	width: 80%;
+}
+
+.blockSection p {
+	padding: 2em .1em .5em .1em;
+}
+
+.columns {
+    list-style: none;
+    padding: 0;
+}
+
+.innerCol {
+    box-shadow: 5px 3px 3px grey;
+}
+
+.innerCol ul {
+    list-style: none;
+    padding: 0;
+}
+
+.innerCol ul li {
+    padding: .25em;
+}
+
+.innerCol ul li a {
+    text-decoration: none;
+}
+
+.innerCol div {
+    display: none;
+}
+
+.innerCol div.open {
+    display: block;
+}
+
+.inCol1 {
+    background-color: #70E7FF;
+    border-radius: 1em;
+}
+
+.inCol2 {
+    background-color: #9AD798;
+    border-radius: 1em;
+}
+
+.stickList {
+	width: 90%;
+	position: fixed;
+	top: 0;
+}
+
+.shrink {
+	line-height: .8;
+	font-size: 75%;
+}
+
+.shrink ul li {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	width: 15%;
+
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	position:relative;
+}
+
+.ctme {
+	margin-bottom: 0;
+}
+
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.panel {
+    margin: 0 auto;
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    width: 80%;
+}
+
+.panel h3, h4 {
+    text-align: center;
+}
+
+.panel li {
+    margin: 1em 0;
+    text-align: left;
+}
+
+.panel img {
+    width: 100%;
+	display: none;
+}
+
+.accActive {
+    color: #ccc;
+}
+
+.email {
+    opacity: .1;
+}
+
+.visible {
+	visibility: hidden;
+}
+
+@media only screen and (min-width: 480px)
+{
+
+	header {
+		min-height: 700px;
+		width: 90vw;
+	}
+
+	form {
+		width: 80%;
+	}
+	
+	form input[type=submit] {
+	    width: 60%;
+	}
+	
+	.submitButton {
+	    text-align: center;
+	}
+
+	.button {
+		padding: 1em 8em 1em 8em; 
+	}
+	
+	.logo {
+	    padding: 5em 2em 0 2em;
+    }
+
+	.logo img {
+		width: 45%;
+	}
+	
+	.myPic img {
+		width: 35%;
+	}
+	
+	.mediaIcons img {
+	    width: 7%;
+	}
+	
+	.projList li {
+		width: 60%;
+		height: 60%;
+	}
+
+	.blockSection {
+		padding: 4em 1em 6em 1em;
+	}
+
+	.blockSection p {
+		padding: 2em 1em 1em 1em;
+		
+	}
+	
+    .blockSection h2 {
+	    padding-top: 2em;
+	    margin-bottom: 1em;
+	    width: 60%;
+	}
+	
+	.columns {
+	    padding: 2em 2em;
+	}
+	
+	.columns li {
+	    display: inline-block;
+	    margin: .25em;
+	    width: 47%;
+	}
+	
+	.innerCol {
+	    padding: 0;
+	    height: 100%;
+	    width: 100%;
+	}
+	
+	.innerCol h3 {
+	    text-align: center;
+	}
+	
+	.innerCol ul {
+	    padding: 0;
+	}
+	
+	.innerCol ul li {
+	    width: 100%;
+	}
+	
+	.res {
+		padding-top: 5em;
+	}
+    
+    .accordion {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1024px)
+{
+    header {
+        min-height: 700px;
+    }
+    
+	form {
+		width: 60%;
+	}
+	
+	form input[type=submit] {
+	    width: 45%;
+	}
+	
+    .navbar {
+		display: block;
+	}
+	
+	.logo img {
+		width: 25%;
+	}
+	
+	.myPic img {
+		width: 20%;
+	}
+
+    .mediaIcons img {
+        width: 4%;
+    }
+	
+	.projList li {
+		width: 45%;
+		height: 45%;
+	}
+
+	.blockSection {
+		padding: 4em 2em 7.25em 2em;
+	}
+
+	.blockSection p {
+		padding: 2em 5em 1em 5em;
+	}
+	
+	.columns {
+	    padding: 2em 3.5em;
+	}
+	
+	.columns li {
+	    margin: .5em;
+	}
+}
