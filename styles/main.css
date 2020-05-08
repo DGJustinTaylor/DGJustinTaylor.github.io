@@ -352,7 +352,7 @@ a:hover {
 }
 
 .accStuff .accordion {
-	color: #8e9fad;
+	background-color: #8e9fad;
 }
 
 @media only screen and (min-width: 480px)
