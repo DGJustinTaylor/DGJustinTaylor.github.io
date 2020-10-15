@@ -64,7 +64,7 @@ a:hover {
 }
 
 footer img {
-	width: 5%;
+	width: 15%;
 }
 
 .button {
@@ -376,6 +376,10 @@ footer img {
 	    width: 60%;
 	}
 
+	footer img {
+		width: 10%;
+	}
+
 	.submitButton {
 	    text-align: center;
 	}
@@ -469,6 +473,10 @@ footer img {
 
 	form input[type=submit] {
 	    width: 45%;
+	}
+
+	footer img {
+		width: 5%;
 	}
 
     .navbar {
