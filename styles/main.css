@@ -63,6 +63,10 @@ a:hover {
 	font-weight: bold;
 }
 
+footer img {
+	width: 5%;
+}
+
 .button {
 	background-color: #36454f;
 	border: none;
