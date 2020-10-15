@@ -335,6 +335,7 @@ a:hover {
 
 .accActive {
     color: #000;
+		text-decoration: underline;
 }
 
 .email {
