@@ -4,9 +4,9 @@ html {
 
 body {
 	/*background-color: #8470ff;*/
-	background-color: #0599bb;
+	background-color: #36454f;
 	margin: 0;
-	
+
 	overflow-x: hidden;
 }
 
@@ -35,15 +35,15 @@ form input, textarea {
 	box-sizing: border-box;
 }
 
-form input[type=submit]{
+form input[type=submit] {
 	width: 100%;
-	background-color: #0599bb;
+	background-color: ##36454f;
 	color: white;
 	padding: .75em 1em;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	
+
 }
 
 form textarea {
@@ -57,14 +57,14 @@ span {
 
 a, a:visited {
 	color: black;
-}	
+}
 
 a:hover {
 	font-weight: bold;
 }
 
 .button {
-	background-color: #0599bb;
+	background-color: #36454f;
 	border: none;
 	color: white;
 	padding: .5em 4em .5em 4em;
@@ -218,7 +218,7 @@ a:hover {
 
 .projList li h3 {
 	margin-bottom: 0;
-}	
+}
 
 .projList li p {
 	margin: 0 auto;
@@ -366,19 +366,19 @@ a:hover {
 	form {
 		width: 80%;
 	}
-	
+
 	form input[type=submit] {
 	    width: 60%;
 	}
-	
+
 	.submitButton {
 	    text-align: center;
 	}
 
 	.button {
-		padding: 1em 8em 1em 8em; 
+		padding: 1em 8em 1em 8em;
 	}
-	
+
 	.logo {
 	    padding: 5em 2em 0 2em;
     }
@@ -386,15 +386,15 @@ a:hover {
 	.logo img {
 		width: 45%;
 	}
-	
+
 	.myPic img {
 		width: 35%;
 	}
-	
+
 	.mediaIcons img {
 	    width: 7%;
 	}
-	
+
 	.projList li {
 		width: 60%;
 		height: 60%;
@@ -406,47 +406,47 @@ a:hover {
 
 	.blockSection p {
 		padding: 2em 1em 1em 1em;
-		
+
 	}
-	
+
     .blockSection h2 {
 	    padding-top: 2em;
 	    margin-bottom: 1em;
 	    width: 60%;
 	}
-	
+
 	.columns {
 	    padding: 2em 2em;
 	}
-	
+
 	.columns li {
 	    display: inline-block;
 	    margin: .25em;
 	    width: 47%;
 	}
-	
+
 	.innerCol {
 	    padding: 0;
 	    height: 100%;
 	    width: 100%;
 	}
-	
+
 	.innerCol h3 {
 	    text-align: center;
 	}
-	
+
 	.innerCol ul {
 	    padding: 0;
 	}
-	
+
 	.innerCol ul li {
 	    width: 100%;
 	}
-	
+
 	.res {
 		padding-top: 5em;
 	}
-    
+
     .accordion {
         width: 80%;
     }
@@ -457,23 +457,23 @@ a:hover {
     header {
         min-height: 700px;
     }
-    
+
 	form {
 		width: 60%;
 	}
-	
+
 	form input[type=submit] {
 	    width: 45%;
 	}
-	
+
     .navbar {
 		display: block;
 	}
-	
+
 	.logo img {
 		width: 25%;
 	}
-	
+
 	.myPic img {
 		width: 20%;
 	}
@@ -481,7 +481,7 @@ a:hover {
     .mediaIcons img {
         width: 4%;
     }
-	
+
 	.projList li {
 		width: 45%;
 		height: 45%;
@@ -494,11 +494,11 @@ a:hover {
 	.blockSection p {
 		padding: 2em 5em 1em 5em;
 	}
-	
+
 	.columns {
 	    padding: 2em 3.5em;
 	}
-	
+
 	.columns li {
 	    margin: .5em;
 	}
