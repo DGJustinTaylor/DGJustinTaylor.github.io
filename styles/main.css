@@ -37,7 +37,7 @@ form input, textarea {
 
 form input[type=submit] {
 	width: 100%;
-	background-color: ##36454f;
+	background-color: #36454f;
 	color: white;
 	padding: .75em 1em;
 	border: none;
@@ -334,7 +334,7 @@ a:hover {
 }
 
 .accActive {
-    color: #ccc;
+    color: #000;
 }
 
 .email {
